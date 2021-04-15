@@ -1,6 +1,7 @@
 package com.techreturners.exercise001;
 
 import java.util.List;
+import java.text.DecimalFormat;
 
 public class Exercise001 {
     public String capitalizeWord(String word) {
@@ -12,8 +13,8 @@ public class Exercise001 {
     }
 
     public double addVat(double originalPrice, double vatRate) {
-        // Add your code here
-        return 0.0;
+        DecimalFormat formatter = new DecimalFormat("#.00");
+        return Double.parseDouble(formatter.format( originalPrice * (1 + vatRate / 100) ));
     }
 
     public String reverse(String sentence) {
