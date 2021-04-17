@@ -1,6 +1,7 @@
 package com.techreturners.exercise001;
 
 import java.util.List;
+import java.util.ArrayList;
 import java.text.DecimalFormat;
 
 public class Exercise001 {
@@ -18,12 +19,16 @@ public class Exercise001 {
     }
 
     public String reverse(String sentence) {
-        // Add your code here
-        return "";
+        String reverseWords = "";
+        for (int i = sentence.length() - 1; i >= 0; i--) {
+            reverseWords = reverseWords + sentence.charAt(i); 
+        }
+        return reverseWords;  
     }
-
+    
     public int countLinuxUsers(List<User> users) {
-        // Add your code here
-        return 0;
-    }
+       // Add your code here
+       return 0;
+    }  
+
 }
