@@ -29,7 +29,7 @@ public class Exercise001 {
     public int countLinuxUsers(List<User> users) {
         int countLinuxUsers = 0;
         for (User user : users) {
-            if (user.getType().toLowerCase().equals("linux")) {      // getType() method used to get the declared type of field of object. For more java.lang.reflect.Field
+            if (user.getType().toLowerCase().equals("linux")) {    
                 countLinuxUsers++;
             }
         }
