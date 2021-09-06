@@ -12,15 +12,27 @@ NOTE: You are not required to purchase any PRO content from CodeAcademy.
 
 Remember to break down problems to help you solve them and that Google is your friend!
 
-### Instructions
+## Instructions
 
 To complete these challenges you will need to have Java and Maven installed on your computer. 
 
+### Installing the Java SE Development Kit
+
+#### Recommended Installation Method
+
 Follow this link and to download and install the **Java SE Development Kit** for your laptop:
 
-https://www.oracle.com/uk/java/technologies/javase/javase-jdk8-downloads.html
+https://www.oracle.com/uk/java/technologies/javase-downloads.html
 
-(If you already have Java installed, please make sure you are running version 8)
+At the time of writing (09/2021) the latest version LTS (Long term support) version of the Java SE Development kit is version 11.
+
+#### Alternative Installation Methods
+
+- If you already have [homebrew](https://brew.sh/) on macOS/Linux, you can follow the instructions from this community [blog](https://mkyong.com/java/how-to-install-java-on-mac-osx/)
+
+- If you are using [Chocolatey](https://community.chocolatey.org) on Windows OS, you can run the following [command](https://community.chocolatey.org/packages/jdk11) to install Java SE 11.0.2.9
+
+### Installing Maven
 
 You'll also need Maven installed for managing dependencies.
 
