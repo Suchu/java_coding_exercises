@@ -19,11 +19,11 @@ public class Exercise001 {
     }
 
     public String reverse(String sentence) {
-        String reverseWords = "";
+        String reversedWords = "";
         for (int i = sentence.length() - 1; i >= 0; i--) {
-            reverseWords = reverseWords + sentence.charAt(i); 
+            reversedWords = reversedWords + sentence.charAt(i); 
         }
-        return reverseWords;  
+        return reversedWords;  
     }
     
     public int countLinuxUsers(List<User> users) {
