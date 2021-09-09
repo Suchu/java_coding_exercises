@@ -26,12 +26,6 @@ public class Exercise001 {
     }
 
     public int countLinuxUsers(List<User> users) {
-        int countLinuxUsers = 0;
-        for (User user : users) {
-            if (user.getType().toLowerCase().equals("linux")) {
-                countLinuxUsers++;
-            }
-        }
-        return countLinuxUsers;
+        return (int) users.stream().filter(u -> u.getType().toLowerCase().equals("linux")).count();
     }
 }
